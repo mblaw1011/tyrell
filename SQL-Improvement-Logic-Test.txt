@@ -1,0 +1,8 @@
+B) SQL Improvement Logic Test
+
+Below are 2 improvement can be done on SQL query: 
+1. Index all fields that used in JOIN, WHERE condition.
+2. Fulltext index those fields in LIKE  operator
+
+
+Preferable: Store a copy of data to Redis, each job store as as full object, this could improve huge performance and increase scalability.
